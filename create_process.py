@@ -52,7 +52,7 @@ def main():
     # Import the kernel32 lib
     kernel32 = windll.kernel32
 	
-	# creation flag
+    # creation flag
     CREATE_NEW_CONSOLE = 0x00000010
     CREATE_SUSPENDED = 0x00000004
     creation_flags = CREATE_NEW_CONSOLE | CREATE_SUSPENDED
