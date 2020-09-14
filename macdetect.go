@@ -36,7 +36,7 @@ func main() {
             str := strings.ToUpper(a)
             if str[0:8] == s[0:8] {
                 fmt.Println("VM detected!")
-				fmt.Println(i, s)
+		fmt.Println(i, s)
             } 
          }
     }
